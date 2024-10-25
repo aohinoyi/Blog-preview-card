@@ -37,9 +37,10 @@ h3 {
 }
 
 .illustration {
-  border-radius: 20px;
+  border-radius: 30px;
   width: 100%;
   display: block;
+  padding: 20px;
 }
 
 .publication-date {
