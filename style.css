@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(47, 88%, 63%);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Figtree", sans-serif;
+  padding: 15px;
+}
+
+.container {
+  width: 350px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 15px;
+  box-shadow: 0 10px 30px hsl(0, 0%, 7%);
+  padding: 10px;
+}
+
+h3 {
+  background-color: hsl(47, 88%, 63%);
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 500px;
+  padding: 5px 10px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.illustration {
+  border-radius: 20px;
+  width: 100%;
+  display: block;
+}
+
+.publication-date {
+  font-size: 12px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 20px;
+  font-weight: 800px;
+  margin-bottom: 10px;
+}
+
+.publication {
+  font-size: 14px;
+  color: hsl(0, 0%, 42%);
+  line-height: 1.5;
+  /* margin-bottom: 10px; */
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.author img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.author p {
+  font-size: 14px;
+  font-weight: 500px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* MObile version */
+@media (max-width: 375px) {
+  .container {
+    width: 100%;
+    margin: 0 10px;
+  }
+
+  .card-content {
+    padding: 15px;
+  }
+  .publication-date {
+    font-size: 18px;
+  }
+  .publication {
+    font-size: 13px;
+  }
+  .author img {
+    width: 25px;
+    height: 25px;
+  }
+  .author p {
+    font-size: 13px;
+  }
+}
